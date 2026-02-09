@@ -31,17 +31,17 @@ const Header = ({}: HeaderProps) => {
                     <Link className={styles.logo} href="/">
                         <Image
                             className={styles.image}
-                            src="/images/fluxxboard-logo.png"
+                            src="/images/kavanah-logo.png"
                             priority={true}
                             width={260}
-                            height={60}
-                            alt="Fluxxboard"
+                            height={67}
+                            alt="Kavanah"
                         />
                     </Link>
                     <Button
                         className={styles.button}
                         title="Try it for free"
-                        href="https://fluxxboard.vercel.app/"
+                        href="https://kavanah.vercel.app/"
                     />
                     <div
                         className={cn(styles.overlay, {

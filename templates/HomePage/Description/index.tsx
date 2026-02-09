@@ -21,7 +21,7 @@ const Description = ({}: DescriptionProps) => (
                         <Button
                             className={styles.button}
                             title="Get Started Free"
-                            href="https://fluxxboard.vercel.app/"
+                            href="https://kavanah.vercel.app/"
                         />
                         <div className={styles.version}>Free forever. Premium AI features for $10/month.</div>
                     </div>

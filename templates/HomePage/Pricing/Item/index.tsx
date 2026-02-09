@@ -37,7 +37,7 @@ const Item = ({ activeIndex, item, index }: ItemProps) => (
                 <div className={styles.duration}>
                     {activeIndex === 0 ? "billed yearly" : "billed monthly"}
                 </div>
-                <Button className={styles.button} title="Get started" href="https://fluxxboard.vercel.app/" />
+                <Button className={styles.button} title="Get started" href="https://kavanah.vercel.app/" />
             </div>
             <div className={styles.body}>
                 <div className={styles.info}>{item.description}</div>

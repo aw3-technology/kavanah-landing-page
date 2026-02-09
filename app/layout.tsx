@@ -15,20 +15,20 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-    title: "FluxxBoard",
+    title: "Kavanah",
     description: "AI-powered task manager. Capture every idea in 3 seconds. AI organizes them instantly. Turn scattered thoughts into shipped projects.",
-    metadataBase: new URL('https://fluxxboard-landing-page.vercel.app'),
+    metadataBase: new URL('https://kavanah.vercel.app'),
     openGraph: {
-        title: "Fluxxboard",
+        title: "Kavanah",
         description: "AI-powered task manager. Capture every idea in 3 seconds. Turn scattered thoughts into shipped projects.",
-        url: "https://fluxxboard-landing-page.vercel.app",
-        siteName: "Fluxxboard",
+        url: "https://kavanah.vercel.app",
+        siteName: "Kavanah",
         images: [
             {
-                url: "/fluxxboard-social-share.png",
+                url: "/kavanah-social-share.png",
                 width: 1954,
                 height: 1144,
-                alt: "Fluxxboard",
+                alt: "Kavanah",
             },
         ],
         locale: "en_US",
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Fluxxboard",
+        title: "Kavanah",
         description: "AI-powered task manager. Capture every idea in 3 seconds. Turn scattered thoughts into shipped projects.",
-        images: ["/fluxxboard-social-share.png"],
+        images: ["/kavanah-social-share.png"],
     },
 };
 
